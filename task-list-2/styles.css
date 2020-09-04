@@ -6,6 +6,10 @@
   color: black;
 }
 
+.checked {
+  text-decoration: line-through;
+}
+
 .container {
   display: flex;
   width: 100%;
@@ -15,11 +19,11 @@
   margin-top: 5%;
 }
 
-.task-form {
+.todo-form {
   margin: 25px 0;
 }
 
-.task-input {
+.todo-input {
   background-color: white;
   color: black;
   font-size: 20px;
@@ -37,7 +41,7 @@ ul {
   border-radius: 5px;
 }
 
-.todo-item {
+.todo-items {
   list-style-type: none;
   font-size: 25px;
   padding-bottom: 5px;
